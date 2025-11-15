@@ -2,122 +2,43 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Antoine Buret
 
-[Link to another page](./another-page.html).
+> Engineering student at IMT Nord Europe (formerly Mines de Douai) | specializing in Cybersecurity
 
-There should be whitespace between paragraphs.
+Welcome! I'm a final-year engineering student at IMT Nord Europe, specializing in Data Science and Cybersecurity. I'm passionate about building tools that help defend and secure systems.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+---
 
-# Header 1
+## Projects
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### [CISA KEV Analyzer](https://github.com/antoineburet/CISA-KEV-Analyzer)
 
-## Header 2
+`Python | API | Threat Intelligence | CLI`
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+A command-line tool to query, analyze, and enrich the CISA Known Exploited Vulnerabilities (KEV) catalog.
 
-### Header 3
+* Fetches data from the CISA KEV catalog and provides smart local caching.
+* Enriches findings with CVSS scores and severity by querying the NVD 2.0 API.
+* Filters results by date, vendor, or number of entries.
+* Exports reports to the console, JSON, or CSV.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+*This tool was originally developed as a technical challenge for a SOC/Blue Team internship interview.*
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+#### Example Usage
 
-#### Header 4
+```bash
+# Get the last 5 vulns from the last 30 days (default)
+$ python3 kev_analyzer.py
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+# Get the top 2 vulns from the last 60 days, with CVSS scores
+$ python3 kev_analyzer.py -n 2 -d 60 --enrich
 
-##### Header 5
+# Search for "Microsoft" and export to JSON
+$ python3 kev_analyzer.py -n 10 -d 180 -s "Microsoft" -f json -o microsoft_report.json
+````
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+## Connect
 
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+  * [LinkedIn](https://linkedin.com/in/antoine-buret)
+  * [GitHub](https://github.com/antoineburet)
