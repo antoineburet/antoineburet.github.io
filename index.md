@@ -34,7 +34,21 @@ $ python3 kev_analyzer.py -n 2 -d 60 --enrich
 $ python3 kev_analyzer.py -n 10 -d 180 -s "Microsoft" -f json -o microsoft_report.json
 ````
 
+-----
+
+## Cybersecurity Learning
+
+I started my hands-on cybersecurity journey on [TryHackMe](https://tryhackme.com/p/Nyota0) on Monday, November 10, 2025. Here is my live profile badge:
+
+\<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1743418"
+style="border:none; width: 350px; height: 180px;"\>
+\</iframe\>
+
+-----
+
 ## Connect
 
   * [LinkedIn](https://linkedin.com/in/antoine-buret)
   * [GitHub](https://github.com/antoineburet)
+
+<!-- end list -->
