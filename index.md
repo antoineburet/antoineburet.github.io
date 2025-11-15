@@ -8,7 +8,7 @@ Welcome! I'm a final-year engineering student at IMT Nord Europe, specializing i
 
 ## Projects
 
-### [CISA KEV Analyzer](https://github.com/antoineburet/CISA-KEV-Analyzer)
+### [CISA KEV Analyzer](https://github.com/antoineburet/cisa-kev-analyzer)
 
 `Python | API | Threat Intelligence | CLI`
 
