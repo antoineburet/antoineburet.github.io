@@ -2,10 +2,6 @@
 layout: default
 ---
 
-# Antoine Buret
-
-> Engineering student at IMT Nord Europe (formerly Mines de Douai) | specializing in Cybersecurity
-
 Welcome! I'm a final-year engineering student at IMT Nord Europe, specializing in Data Science and Cybersecurity. I'm passionate about building tools that help defend and secure systems.
 
 ---
