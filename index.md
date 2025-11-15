@@ -41,8 +41,8 @@ $ python3 kev_analyzer.py -n 10 -d 180 -s "Microsoft" -f json -o microsoft_repor
 I started my hands-on cybersecurity journey on [TryHackMe](https://tryhackme.com/p/Nyota0) on Monday, November 10, 2025. Here is my live profile badge:
 
 <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1743418"
-style="border:none; width: 350px; height: 180px;"\>
-</iframe\>
+style="border:none; width: 350px; height: 180px;">
+</iframe>
 
 -----
 
