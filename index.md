@@ -8,6 +8,20 @@ Welcome! I'm a final-year engineering student at IMT Nord Europe, specializing i
 
 ## Projects
 
+### [SQL Injection Prevention Demo](https://github.com/antoineburet/sql-injection-prevention-demo)
+
+`Node.js | Express | MySQL | Security | Docker`
+
+A web application demonstrating a classic SQL Injection (SQLi) vulnerability and, more importantly, how to prevent it.
+
+* Compares a **vulnerable login** route (using string concatenation) with a **secure login** route (using parameterized queries).
+* Demonstrates **two major flaws** simultaneously: SQL Injection and storing passwords in plain text (`password_clear`).
+* The secure route properly uses **`bcrypt`** for password hashing and comparison, making it safe.
+
+*This project is a hands-on lab to illustrate the critical difference between insecure and secure authentication code.*
+
+---
+
 ### [CISA KEV Analyzer](https://github.com/antoineburet/cisa-kev-analyzer)
 
 `Python | API | Threat Intelligence | CLI`
@@ -40,15 +54,13 @@ $ python3 kev_analyzer.py -n 10 -d 180 -s "Microsoft" -f json -o microsoft_repor
 
 I started my hands-on cybersecurity journey on [TryHackMe](https://tryhackme.com/p/Nyota0) on Monday, November 10, 2025. Here is my live profile badge:
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1743418"
-style="border:none; width: 350px; height: 180px;">
-</iframe>
+\<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1743418"
+style="border:none; width: 350px; height: 180px;"\>
+\</iframe\>
 
 -----
 
 ## Connect
 
-  * [LinkedIn](https://linkedin.com/in/antoine-buret)
-  * [GitHub](https://github.com/antoineburet)
-
-<!-- end list -->
+  \* [LinkedIn](https://linkedin.com/in/antoine-buret)
+  \* [GitHub](https://github.com/antoineburet)
