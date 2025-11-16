@@ -10,7 +10,7 @@ Welcome! I'm a final-year engineering student at IMT Nord Europe, specializing i
 
 ### [SQL Injection Prevention Demo](https://github.com/antoineburet/sql-injection-prevention-demo)
 
-`Node.js | Express | MySQL | Security | Docker`
+`Node.js | Express | MySQL | Security`
 
 A web application demonstrating a classic SQL Injection (SQLi) vulnerability and, more importantly, how to prevent it.
 
