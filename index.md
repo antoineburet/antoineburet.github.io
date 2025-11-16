@@ -37,6 +37,8 @@ A command-line tool to query, analyze, and enrich the CISA Known Exploited Vulne
 
 *This tool was originally developed as a technical challenge for a SOC/Blue Team internship interview.*
 
+<img style="width: 100%; max-width: 600px; height: auto;" alt="cisa-kev-analyzer-screenshot" src="https://github.com/user-attachments/assets/6f03722a-30fd-4f73-b706-80565185a0a0" />
+
 #### Example Usage
 
 ```bash
