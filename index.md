@@ -20,7 +20,7 @@ A web application demonstrating a classic SQL Injection (SQLi) vulnerability and
 
 *This project is a hands-on lab to illustrate the critical difference between insecure and secure authentication code.*
 
-<img width="1586" height="340" alt="sqli-demo-screenshot" src="https://github.com/user-attachments/assets/137ed138-3f63-4f30-a7e0-29681f7549fe" />
+<img height="200" alt="sqli-demo-screenshot" src="https://github.com/user-attachments/assets/137ed138-3f63-4f30-a7e0-29681f7549fe" />
 
 ---
 
